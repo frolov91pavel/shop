@@ -1,6 +1,6 @@
 public class Client extends Human implements Employee {
     //Dependency Inversion Principle
-    //Open Closed Principle - имплементируя интерфейс Food мы добавляем
+    //Open Closed Principle - имплементируя интерфейс Employee мы добавляем
     private Order order;
     private String statusOrder;
     private String locationOrder;
